@@ -18,10 +18,50 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: #081306  ;
+  margin: 0; 
+  padding: 0;
+  height: 100%; 
+  display: block;
 }
+
+.uts-neup-shadow{
+  border-color: #506c4a;
+
+  box-shadow: var(--h1) var(--v1) var(--color-dark), 
+  var(--h2) var(--v2) var(--color-light);
+}
+
+.uts-box {
+  background-color:  #081306;
+  border-color: #506c4a;
+  margin-top: 3%;
+  height: 25rem;
+  width: 50rem;
+}
+
+uts-input-box{
+  padding-top: 2%;
+}
+
+.uts-dark-label{
+  color: #506c4a;
+}
+
+.uts-button {
+  background-color:  #081306;
+  border-color: #506c4a;
+  color: #506c4a;
+}
+
+.uts-input {
+  background-color:  #081306;
+  border-color: #506c4a;
+  color: #506c4a;
+}
+
+.uts-input::placeholder {
+  color: #ff3366;
+  opacity: 1;
+}
+
